@@ -1,4 +1,13 @@
-.black_logo_banner{
+/* debug */
+body{
+    background-color: blueviolet;
+}
+/* /debug */
+
+/* header */
+
+/* logo black bnner */
+.logo_black_banner{
     height: 30px;
     background-color: black;
 }
@@ -7,3 +16,9 @@
     width: 100px;
     height: 30px;
 }
+
+
+
+/* nav */
+
+/* /header */
