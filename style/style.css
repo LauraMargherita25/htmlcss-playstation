@@ -4,6 +4,12 @@ body{
 }
 /* /debug */
 
+/* general */
+.rounded_max{
+    border-radius: 15px;
+}
+/* /general */
+
 /* header */
 
 /* logo black bnner */
@@ -33,5 +39,13 @@ body{
     height: 85vh;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
+}
+
+
+
+/* games */
+.games .game-img{
+    width: 100px;
+    height: 80px;
 }
 /* /main */
