@@ -22,3 +22,16 @@ body{
 /* nav */
 
 /* /header */
+
+
+
+
+/* main */
+
+/* jumbotrone */
+.jumbotrone{
+    height: 85vh;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+}
+/* /main */
