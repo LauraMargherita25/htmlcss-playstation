@@ -28,7 +28,6 @@ body{
 
 /* header-bottom */
 .btn_search{
-    
     background-color: white;
 }
 
@@ -49,6 +48,8 @@ body{
 /* jumbotrone */
 .jumbotrone{
     height: 85vh;
+
+    margin-top: 106px;
 
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
