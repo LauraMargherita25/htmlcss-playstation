@@ -14,16 +14,12 @@ body{
 
 /* header-top */
 .header_top{
-    height: 30px;
     background-color: black;
 }
 
-.img_logo_container{
+.header_top img{
     width: 100px;
-    height: 30px;
 }
-
-
 
 
 /* header-bottom */
@@ -91,3 +87,13 @@ body{
     width: 50%;
 }
 /* /main */
+
+
+
+/* footer */
+
+/* footer top */
+.footer_top p::before{
+
+}
+/* /footer */
