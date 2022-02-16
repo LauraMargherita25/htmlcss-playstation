@@ -110,6 +110,14 @@
 }
 
 
+
+/* new release */
+.cursor_pointer:hover{
+    cursor: pointer;
+}
+
+
+
 /* banner */
 .banner_logo_wrapper{
     width: 50%;
