@@ -1,12 +1,13 @@
-/* debug */
-body{
-    background-color: blueviolet;
-}
-/* /debug */
-
 /* general */
+
+
 .rounded_max{
     border-radius: 15px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
 }
 /* /general */
 
@@ -23,6 +24,18 @@ body{
 
 
 /* header-bottom */
+.dropdown-toggle::after {
+    display: none;
+}
+
+.chevron{
+    width: 10px;
+}
+
+.dropdown-toggle:focus .chevron{
+    transform: rotate(180deg);
+}
+
 .btn_search{
     background-color: white;
 }
@@ -30,10 +43,6 @@ body{
 .btn_search img{
     width: 1.5rem;
 }
-
-
-/* nav */
-
 /* /header */
 
 
@@ -42,10 +51,10 @@ body{
 /* main */
 
 /* jumbotrone */
-.jumbotrone{
+.jumbo{
     height: 85vh;
 
-    margin-top: 106px;
+    margin-top: 110px;
 
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -53,12 +62,22 @@ body{
     background-repeat: no-repeat;
 }
 
+.jumbo img{
+    width: 60%;
+}
+
 
 
 /* games */
-.games .game-img{
-    width: 100px;
-    height: 80px;
+.games .game_img{
+    width: 100%;
+
+    transition: transform .5s ease-out;
+    display: inline-block;
+}
+
+.game_img:hover{
+    transform: translate(0, -5px);
 }
 
 
@@ -80,6 +99,9 @@ body{
     background-repeat: no-repeat;
 }
 
+.hero img{
+    width: 30%;
+}
 
 
 /* banner */
