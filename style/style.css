@@ -77,14 +77,20 @@
 }
 
 .game_img:hover{
-    transform: translate(0, -5px);
+    transform: translate(0, -10px);
 }
 
 
 
 /* product */
-.product_card{
-    width: ;
+.hover_effects{
+    transition: opacity .5s;
+}
+
+.hover_effects:hover{
+    opacity: 1!important;
+
+    border-bottom: 2px solid var(--bs-primary);
 }
 
 
