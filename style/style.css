@@ -16,6 +16,10 @@
     background-color: #161c3b;
 }
 
+.bg_color_blue{
+    background-color: #00439c;
+}
+
 .cursor_pointer:hover{
     cursor: pointer;
 }
@@ -134,6 +138,12 @@
 /* footer */
 
 /* footer top */
+.footer_top img{
+    width: 100px;
+
+    fill: white;
+
+}
 .footer_top p::before{
 
 }
