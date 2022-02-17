@@ -98,7 +98,7 @@ a{
     width: 10px;
 }
 
-.dropdown-toggle:focus .chevron{
+.show .chevron{
     transform: rotate(180deg);
 }
 
