@@ -41,6 +41,24 @@
 .bordered_btn_red:hover a{
   transform: scale(0.9, 0.8);
 }
+
+.bordered_btn_blue{
+    display: inline-block;
+    border: 2px solid transparent;
+}
+  
+.bordered_btn_blue:hover{
+    border: 2px solid var(--bs-primary);
+    border-radius: 50px;
+}
+
+.bordered_btn_blue a{
+  transition: transform .2s;
+}
+
+.bordered_btn_blue:hover a{
+  transform: scale(0.9, 0.8);
+}
 /* /general */
 
 /* header */
