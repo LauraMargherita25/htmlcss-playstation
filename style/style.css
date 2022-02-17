@@ -23,6 +23,24 @@
 .cursor_pointer:hover{
     cursor: pointer;
 }
+
+.bordered_btn_red{
+    display: inline-block;
+    border: 2px solid transparent;
+}
+  
+.bordered_btn_red:hover{
+    border: 2px solid var(--bs-danger);
+    border-radius: 50px;
+}
+
+.bordered_btn_red a{
+  transition: transform .2s;
+}
+
+.bordered_btn_red:hover a{
+  transform: scale(0.9, 0.8);
+}
 /* /general */
 
 /* header */
