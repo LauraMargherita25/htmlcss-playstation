@@ -185,15 +185,12 @@ a{
 /* banner */
 .banner_logo_wrapper{
     width: 60%;
-
-    margin: 2rem 0;
 }
 /* /main */
 
 
 
 /* footer */
-
 /* footer top */
 .footer_top img{
     width: 100px;
@@ -210,7 +207,6 @@ a{
     text-decoration: none;
 }
 
-/* non funziona*/
 .footer_top p::before{
     content: "";
     
