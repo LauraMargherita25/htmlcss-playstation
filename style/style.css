@@ -12,7 +12,7 @@ a{
     font-weight: 600;
 }
 
-.bg_colo_gray{
+.bg_color_gray{
     background-color: #bebcbb;
 }
 
@@ -175,11 +175,7 @@ a{
 
 
 /* banner */
-.banner_logo_wrapper{
-    width: 60%;
 
-    margin: 2rem 0;
-}
 /* /main */
 
 
