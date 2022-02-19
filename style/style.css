@@ -122,14 +122,16 @@ a{
 
 /* jumbotrone */
 .jumbo{
-    height: 85vh;
-
     margin-top: 110px;
 
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.jumbo_container_pt-max{
+    padding-top: 400px;
 }
 
 .jumbo img{
