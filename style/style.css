@@ -106,10 +106,6 @@ a{
     transform: rotate(180deg);
 }
 
-.btn_search{
-    background-color: white;
-}
-
 .btn_search img{
     width: 1.5rem;
 }
